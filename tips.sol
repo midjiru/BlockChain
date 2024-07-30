@@ -8,7 +8,15 @@ contract tips {
     }
     //1.put fund in smart contract
 
+    function addtips() payable public {
+
+    }
+
     //2.view balance
+
+    function viewtips() public view returns(uint){
+        return address(this).balance;
+    }
 
     //3.add user
 
